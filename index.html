@@ -13,22 +13,26 @@
         
       <div class="portfolio">
               
-          <h2 class="portfolio-title">Some of my work</h2>
+          <h2 class="portfolio-title">auto-fill <br>grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));</h2>
           
           <!--portfolio item 1 -->
           <div class="portfolio-card">
               <img src="https://unsplash.it/700/100" alt="">
-              <h3 class="portfolio-card-title">Project title</h3>
-              <p class="portfolio-card-p">Project description</p>
+              <h3 class="portfolio-card-title">repeat(3, 1fr)</h3>
+              <p class="portfolio-card-p">
+                <code>
+                    display: grid;<br>
+                    grid-template-columns: repeat(3, 1fr);
+                </code>
+              </p>
           </div>
-          
           <!--portfolio item 2 -->
           <div class="portfolio-card">
-              <img src="https://unsplash.it/700/100" alt="">
-              <h3 class="portfolio-card-title">Project title</h3>
-              <p class="portfolio-card-p">Project description</p>
-          </div>
-          
+            <img src="https://unsplash.it/700/100" alt="">
+            <h3 class="portfolio-card-title">Project title</h3>
+            <p class="portfolio-card-p">Project description</p>
+        </div>          
+
           <!--portfolio item 3 -->
           <div class="portfolio-card">
               <img src="https://unsplash.it/700/100" alt="">
@@ -56,6 +60,42 @@
               <h3 class="portfolio-card-title">Project title</h3>
               <p class="portfolio-card-p">Project description</p>
           </div>
+          
+          <!--portfolio item 7 -->
+          <div class="portfolio-card">
+              <img src="https://unsplash.it/700/100" alt="">
+              <h3 class="portfolio-card-title">Project title</h3>
+              <p class="portfolio-card-p">Project description</p>
+          </div>
+          
+          <!--portfolio item 8 -->
+          <div class="portfolio-card">
+              <img src="https://unsplash.it/700/100" alt="">
+              <h3 class="portfolio-card-title">Project title</h3>
+              <p class="portfolio-card-p">Project description</p>
+          </div>
       </div>
+      <h2 class="portfolio-title">auto-fill <br>grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));</h2>
+      <div class="portfolio2">
+          <!--portfolio item 2 -->
+          <div class="portfolio-card">
+            <img src="https://unsplash.it/700/100" alt="">
+            <h3 class="portfolio-card-title">auto-fit / auto-fill</h3>
+            <p class="portfolio-card-p">
+              <strong>auto-fit</strong> will fit the columns you've defined into the available space<br>
+              <strong>auto-fill</strong> will keep adding in new columns, even if they are empty<br><br>
+
+              <code>
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+              </code>
+            </p>
+        </div>
+        
+        <!--portfolio item 4 -->
+        <div class="portfolio-card">
+            <img src="https://unsplash.it/700/100" alt="">
+            <h3 class="portfolio-card-title">Project title</h3>
+            <p class="portfolio-card-p">Project description</p>
+        </div>
   </body>
 </html>

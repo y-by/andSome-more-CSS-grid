@@ -8,7 +8,15 @@ body {
 .portfolio {
   padding: 1em;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1em;
+}
+
+.portfolio2 {
+  margin-block-start: 2em;
+  padding: 1em;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1em;
 }
 
@@ -27,6 +35,7 @@ img {
   box-shadow: 0 0 1em rgba(0,0,0,.25);
   padding: 1em;
   background: white;
+  height: min-content;
 }
 
 .portfolio-card-title {
